@@ -1,0 +1,59 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: linear-gradient(142deg,#9861c2, #5cc0de);
+    /* font-family: "Lato", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0; */
+  }
+  .screen-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .otp-container{
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+   }
+    .otp-input{
+        width: 64px;
+        height: 100px;
+        font-size: 80px;
+        text-align: center;
+        margin: 0 4px;
+    }
+    .otp-input:focus{
+        outline: none;
+        border: 2px solid #9db8f5
+    }
+    .otp-input:not(:placeholder-shown){
+        box-shadow:0 2px 11px 0px grey;
+    }
+    .foot-note{
+        background-color: #eeeeee;
+        color:#999;
+        width:400px;
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 8px;
+        
+
+    }
+  
+    
